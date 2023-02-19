@@ -8,7 +8,7 @@ Your goal is to collect faith as a god to grow stronger and larger. Just experim
 
 ## Credits
 
-Gamedesign : Mariateb
-Programming : Mariateb
-Styling : Mariateb
-Special Thanks : None (for now)
+Gamedesign : Mariateb  
+Programming : Mariateb  
+Styling : Mariateb  
+Special Thanks : None (for now)  
