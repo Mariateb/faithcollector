@@ -2,11 +2,29 @@
     <head>
         <!-- Title -->
         <title>Faith Collector</title>
-        <!-- Stylesheets (Dark Mode by default)-->
+        <!-- Color stylesheet (dark by default) -->
         <link rel="stylesheet" href="src/sheets/dark.css" id="darkmode">
         <link rel="stylesheet" href="src/sheets/light.css" id="lightmode" disabled>
+        <!-- Base stylesheet -->
+        <link rel="stylesheet" href="src/sheets/base.css">
     </head>
     <body>
-        <p>Test</p>
+        <div id="navigation">
+            <table>
+                <tr>
+                    <td id="currencies">
+                        <p>You have <span id="faithcounter">0</span> faith.</p>
+                    </td>
+                    <td>
+                        <p>Heheeho</p>
+                    </td>
+                    <td class="tdbutton" id="tdbuttonmode">
+                        <button>SWITCH MODE</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
+    <script src="src/scripts/Game.js"></script>
+    <script src="src/scripts/ButtonHandler.js"></script>
 </html>
